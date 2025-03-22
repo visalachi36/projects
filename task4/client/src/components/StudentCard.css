@@ -1,0 +1,18 @@
+.student-card {
+    border: 1px solid #a96c6c;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(179, 53, 53, 0.1);
+    width: 200px;
+    margin: 10px;
+    background-color: rgb(83, 107, 129);
+  }
+  
+  .student-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  

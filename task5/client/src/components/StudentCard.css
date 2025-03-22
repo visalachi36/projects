@@ -1,0 +1,33 @@
+/* Student Card Styling */
+.student-card {
+  width: 280px;
+  padding: 15px;
+  border-radius: 15px;
+  background: pink;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.student-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 24px rgba(196, 65, 65, 0.2);
+}
+
+/* Student Image */
+.student-card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 3px solid rgb(70, 43, 43);
+}
+
+/* Student Info */
+.student-card h3, .student-card p {
+  color: rgb(152, 142, 142);
+  margin: 4px 0;
+}
